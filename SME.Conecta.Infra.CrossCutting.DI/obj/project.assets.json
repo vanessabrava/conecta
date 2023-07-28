@@ -1,0 +1,260 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SME.Conecta.Application.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Application.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Application.Services.dll": {}
+        }
+      },
+      "SME.Conecta.Application.Services.Imp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Application.Services.Imp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Application.Services.Imp.dll": {}
+        }
+      },
+      "SME.Conecta.Infra.CrossCutting.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.Common.dll": {}
+        }
+      },
+      "SME.Conecta.Infra.CrossCutting.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SME.Conecta.Infra.CrossCutting.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.Model.dll": {}
+        }
+      },
+      "SME.Conecta.Infra.CrossCutting.RabitMQ/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.RabitMQ.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Infra.CrossCutting.RabitMQ.dll": {}
+        }
+      },
+      "SME.Conecta.Infra.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SME.Conecta.Infra.CrossCutting.Model": "1.0.0",
+          "SME.Conecta.Services.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SME.Conecta.Infra.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Infra.Database.dll": {}
+        }
+      },
+      "SME.Conecta.Infra.Database.MySql/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SME.Conecta.Infra.Database": "1.0.0",
+          "SME.Conecta.Services.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SME.Conecta.Infra.Database.MySql.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Infra.Database.MySql.dll": {}
+        }
+      },
+      "SME.Conecta.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Services.dll": {}
+        }
+      },
+      "SME.Conecta.Services.Imp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Services.Imp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Services.Imp.dll": {}
+        }
+      },
+      "SME.Conecta.Services.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SME.Conecta.Services.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SME.Conecta.Services.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SME.Conecta.Application.Services/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Application.Services/SME.Conecta.Application.Services.csproj",
+      "msbuildProject": "../SME.Conecta.Application.Services/SME.Conecta.Application.Services.csproj"
+    },
+    "SME.Conecta.Application.Services.Imp/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Application.Services.Imp/SME.Conecta.Application.Services.Imp.csproj",
+      "msbuildProject": "../SME.Conecta.Application.Services.Imp/SME.Conecta.Application.Services.Imp.csproj"
+    },
+    "SME.Conecta.Infra.CrossCutting.Common/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Infra.CrossCutting.Common/SME.Conecta.Infra.CrossCutting.Common.csproj",
+      "msbuildProject": "../SME.Conecta.Infra.CrossCutting.Common/SME.Conecta.Infra.CrossCutting.Common.csproj"
+    },
+    "SME.Conecta.Infra.CrossCutting.Model/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Infra.CrossCutting.Model/SME.Conecta.Infra.CrossCutting.Model.csproj",
+      "msbuildProject": "../SME.Conecta.Infra.CrossCutting.Model/SME.Conecta.Infra.CrossCutting.Model.csproj"
+    },
+    "SME.Conecta.Infra.CrossCutting.RabitMQ/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Infra.CrossCutting.RabitMQ/SME.Conecta.Infra.CrossCutting.RabitMQ.csproj",
+      "msbuildProject": "../SME.Conecta.Infra.CrossCutting.RabitMQ/SME.Conecta.Infra.CrossCutting.RabitMQ.csproj"
+    },
+    "SME.Conecta.Infra.Database/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Infra.Database/SME.Conecta.Infra.Database.csproj",
+      "msbuildProject": "../SME.Conecta.Infra.Database/SME.Conecta.Infra.Database.csproj"
+    },
+    "SME.Conecta.Infra.Database.MySql/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Infra.Database.MySql/SME.Conecta.Infra.Database.MySql.csproj",
+      "msbuildProject": "../SME.Conecta.Infra.Database.MySql/SME.Conecta.Infra.Database.MySql.csproj"
+    },
+    "SME.Conecta.Services/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Services/SME.Conecta.Services.csproj",
+      "msbuildProject": "../SME.Conecta.Services/SME.Conecta.Services.csproj"
+    },
+    "SME.Conecta.Services.Imp/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Services.Imp/SME.Conecta.Services.Imp.csproj",
+      "msbuildProject": "../SME.Conecta.Services.Imp/SME.Conecta.Services.Imp.csproj"
+    },
+    "SME.Conecta.Services.Models/1.0.0": {
+      "type": "project",
+      "path": "../SME.Conecta.Services.Models/SME.Conecta.Services.Models.csproj",
+      "msbuildProject": "../SME.Conecta.Services.Models/SME.Conecta.Services.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SME.Conecta.Application.Services >= 1.0.0",
+      "SME.Conecta.Application.Services.Imp >= 1.0.0",
+      "SME.Conecta.Infra.CrossCutting.RabitMQ >= 1.0.0",
+      "SME.Conecta.Infra.Database >= 1.0.0",
+      "SME.Conecta.Infra.Database.MySql >= 1.0.0",
+      "SME.Conecta.Services >= 1.0.0",
+      "SME.Conecta.Services.Imp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vanes\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj",
+      "projectName": "SME.Conecta.Infra.CrossCutting.DI",
+      "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj",
+      "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+      "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj"
+            },
+            "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj": {
+              "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

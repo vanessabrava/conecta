@@ -1,0 +1,642 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj": {}
+  },
+  "projects": {
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj",
+        "projectName": "SME.Conecta.Application.Services.Imp",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj",
+        "projectName": "SME.Conecta.Application.Services",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\SME.Conecta.Infra.CrossCutting.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\SME.Conecta.Infra.CrossCutting.Common.csproj",
+        "projectName": "SME.Conecta.Infra.CrossCutting.Common",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\SME.Conecta.Infra.CrossCutting.Common.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj",
+        "projectName": "SME.Conecta.Infra.CrossCutting.DI",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\SME.Conecta.Infra.CrossCutting.DI.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services.Imp\\SME.Conecta.Application.Services.Imp.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Application.Services\\SME.Conecta.Application.Services.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\SME.Conecta.Infra.CrossCutting.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\SME.Conecta.Infra.CrossCutting.Model.csproj",
+        "projectName": "SME.Conecta.Infra.CrossCutting.Model",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\SME.Conecta.Infra.CrossCutting.Model.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\SME.Conecta.Infra.CrossCutting.Common.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Common\\SME.Conecta.Infra.CrossCutting.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj",
+        "projectName": "SME.Conecta.Infra.CrossCutting.RabitMQ",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.RabitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj",
+        "projectName": "SME.Conecta.Infra.Database.MySql",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\SME.Conecta.Infra.Database.MySql.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database.MySql\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj",
+        "projectName": "SME.Conecta.Infra.Database",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\SME.Conecta.Infra.Database.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\SME.Conecta.Infra.CrossCutting.Model.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Infra.CrossCutting.Model\\SME.Conecta.Infra.CrossCutting.Model.csproj"
+              },
+              "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj": {
+                "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj",
+        "projectName": "SME.Conecta.Services.Imp",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\SME.Conecta.Services.Imp.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Imp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj",
+        "projectName": "SME.Conecta.Services.Models",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\SME.Conecta.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj",
+        "projectName": "SME.Conecta.Services",
+        "projectPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\SME.Conecta.Services.csproj",
+        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
+        "outputPath": "D:\\p\\Ailos\\SME\\Projeto\\SME.Conecta\\SME.Conecta.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

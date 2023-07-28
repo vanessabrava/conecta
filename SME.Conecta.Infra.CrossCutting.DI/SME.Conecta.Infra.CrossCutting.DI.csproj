@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Application.Services.Imp\SME.Conecta.Application.Services.Imp.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Application.Services\SME.Conecta.Application.Services.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.RabitMQ\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.Database.MySql\SME.Conecta.Infra.Database.MySql.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.Database\SME.Conecta.Infra.Database.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services.Imp\SME.Conecta.Services.Imp.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services\SME.Conecta.Services.csproj" />
+  </ItemGroup>
+
+</Project>
