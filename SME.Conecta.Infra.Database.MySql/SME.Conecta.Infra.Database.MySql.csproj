@@ -8,9 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Contexts\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>

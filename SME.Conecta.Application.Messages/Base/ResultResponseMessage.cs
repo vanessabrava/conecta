@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SME.Conecta.Infra.CrossCutting.RabitMQ.Abstracts
+namespace SME.Conecta.Application.Messages.Base
 {
-    public interface IRabitMQService
+    internal class ResultResponseMessage
     {
     }
 }

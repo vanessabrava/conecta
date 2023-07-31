@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Services.Models\SME.Conecta.Services.Models.csproj" />
+  </ItemGroup>
+
 </Project>

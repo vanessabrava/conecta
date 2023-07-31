@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.Model\SME.Conecta.Infra.CrossCutting.Model.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.Database\SME.Conecta.Infra.Database.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services.Models\SME.Conecta.Services.Models.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services\SME.Conecta.Services.csproj" />
+  </ItemGroup>
+
 </Project>

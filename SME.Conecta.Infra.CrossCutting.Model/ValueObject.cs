@@ -1,8 +1,9 @@
-﻿using System;
+﻿using SME.Conecta.Infra.CrossCutting.Model.ModelRules;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
+using System.Reflection;
 
 namespace SME.Conecta.Infra.CrossCutting.Model
 {

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Application.Messages\SME.Conecta.Application.Messages.csproj" />
+  </ItemGroup>
+
 </Project>

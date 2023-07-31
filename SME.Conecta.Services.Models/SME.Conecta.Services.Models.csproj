@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.Enum\SME.Conecta.Infra.CrossCutting.Enum.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.Extension\SME.Conecta.Infra.CrossCutting.Extension.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.Model\SME.Conecta.Infra.CrossCutting.Model.csproj" />
+  </ItemGroup>
+
 </Project>

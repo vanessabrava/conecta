@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SME.Conecta.Application.Mapper\SME.Conecta.Application.Mapper.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Application.Messages\SME.Conecta.Application.Messages.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Application.Services\SME.Conecta.Application.Services.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Infra.CrossCutting.RabitMQ\SME.Conecta.Infra.CrossCutting.RabitMQ.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services.Models\SME.Conecta.Services.Models.csproj" />
+    <ProjectReference Include="..\SME.Conecta.Services\SME.Conecta.Services.csproj" />
+  </ItemGroup>
+
 </Project>
